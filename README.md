@@ -1,7 +1,7 @@
 # TSCloudResumeChallenge
 Using all the tools on this one guys...
 
-Welcome to the show,Im T.Smith and this will be the chronicle of my cloud resume challenge. I wanted to complete this challenge to round out my skill set and polish some otheres as a cloud/dev ops engineer.
+Welcome to the show,Im T.Smith and this will be the chronicle of my cloud resume challenge. I wanted to complete this challenge to round out my skill set and polish some others as a cloud/dev ops engineer. Im going to add a few things to the challenge such as docker/k8s orchestration just for fun.
 I expect many triumphs but also some failures,but thats great, because thats where the growth happens!!!
 
 
