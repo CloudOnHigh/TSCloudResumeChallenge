@@ -1,0 +1,283 @@
+ /*font  */ 
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", SansSerif;
+}
+
+body {
+  background-image: url("images/image2.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+
+ /* Left side*/ 
+.container {
+  position: relative; 
+  width: 100%;
+  max-width: 1000px;
+  min-height: 1000px;
+  background-color: #fff;
+  margin: 50px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
+}
+.container .left_Side {
+  position: inherit;
+  background-color: #003147;
+  padding: 40px;
+}
+.profileText {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+.profileText .imgBx {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.profileText .imgBx img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.photo {
+  width: 100%;
+  height: auto;
+}
+.profileText h2 {
+  color: #fff;
+  font-size: 1.5em;
+  margin-top: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 600;
+  line-height: 1.4em;
+}
+.profileText h2 span {
+  font-size: 0.8em;
+  font-weight: 300;
+}
+.contactInfo {
+  padding-top: 40px;
+}
+.title {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+.contactInfo ul {
+  position: relative;
+}
+.contactInfo ul li {
+  list-style: none;
+  position: relative;
+  margin: 10px 0;
+  cursor: pointer;
+}
+.contactInfo ul li .icon {
+  display: inline-block;
+  width: 30px;
+  font-size: 18px;
+  color: hsl(23, 98%, 48%);
+}
+.contactInfo ul li span {
+  color: #fff;
+  font-weight: 300;
+}
+.contactInfo.education li {
+  margin-bottom: 15px;
+}
+.contactInfo.education h5 {
+  color: #03a9f4;
+  font-weight: 500;
+}
+.contactInfo.education h4:nth-child(2) {
+  color: #fff;
+  font-weight: 500;
+}
+.contactInfo.education h4 {
+  color: #fff;
+  font-weight: 300;
+}
+ 
+
+
+/*Right side  */ 
+.container .right_Side {
+  position: relative;
+  background-color: #fff;
+  padding: 40px;
+}
+.about {
+  margin-bottom: 50px;
+}
+.about:last-child {
+  margin-bottom: 0;
+}
+.title2 {
+  color: #ff864e;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+p {
+  color: #081921;
+}
+.about .box {
+  display: flex;
+  flex-direction: row;
+  margin: 20px 0;
+}
+.about .box .year_company {
+  min-width: 150px;
+}
+.about .box .year_company h5 {
+  text-transform: uppercase;
+  color: #848c90;
+  font-weight: 600;
+}
+.about .box .text h4 {
+  text-transform: uppercase;
+  color: #2a7da2;
+  font-size: 16px;
+}
+
+/*Tag Cloud */
+ul.cloud {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    line-height: 2.5rem;
+  }
+  
+  ul.cloud a {
+    color: #919998;
+    display: block;
+    font-size: 1.5rem;
+    padding: 0.125rem 0.25rem;
+    text-decoration: none;
+    position: relative;
+  }
+  
+  ul.cloud a[data-weight="1"] { --size: 1; }
+ul.cloud a[data-weight="2"] { --size: 2; }
+ul.cloud a[data-weight="3"] { --size: 3; }
+ul.cloud a[data-weight="4"] { --size: 4; }
+ul.cloud a[data-weight="5"] { --size: 5; }
+ul.cloud a[data-weight="6"] { --size: 6; }
+ul.cloud a[data-weight="7"] { --size: 7; }
+ul.cloud a[data-weight="8"] { --size: 8; }
+ul.cloud a[data-weight="9"] { --size: 9; }
+
+ul.cloud a {
+  --size: 4;
+  font-size: calc(var(--size) * 0.25rem + 0.5rem);
+ 
+}
+
+
+/* Interest grid*/
+
+.interest ul {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.interest ul li {
+  list-style: none;
+  color: rgb(0, 0, 0);
+  font-weight: 500;
+  margin: 10px 0;
+}
+.interest ul li .fa-chess {
+  color: rgb(235, 88, 235);
+  font-size: 18px;
+  width: 20px;
+}
+
+
+.interest ul li .fa-palette{
+color: #ff864e;
+font: size 10px; ;
+width: 20px;
+
+}
+
+.interest ul li .fa-plane{
+    color: #ff864e;
+    font: size 10px; ;
+    width: 20px;
+        
+    }
+    
+.interest ul li .fa-chess{
+    color: #ff864e;
+    font: size 10px; ;
+    width: 20px;
+        
+    }
+    
+
+
+.interest ul li .fa-gamepad{
+    color:#ff864e;
+    font: size 10px; ;
+    width: 20px;
+    
+    }
+
+.interest ul li .fa-plane{
+    color: #ff864e;
+    font: size 10px; ;
+    width: 20px;
+        
+    }
+
+
+
+
+
+@media (max-width: 1000px) {
+  .container {
+    margin: 10px;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .interest ul {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 600px) {
+  .about .box {
+    flex-direction: column;
+  }
+  .about .box .year_company {
+    margin-bottom: 5px;
+  }
+  .interest ul {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .skills .box {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
